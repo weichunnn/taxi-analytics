@@ -23,5 +23,5 @@ docker run --network=week_2_taxi-analytics taxi_ingest:v001 \
 ```
 
 ```
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/weichun/Downloads/data-playground-362712-e4f37810f5ff.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/weichun/Downloads/data-playground-362712-9b0d10f95bf7.json"
 ```

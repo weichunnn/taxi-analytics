@@ -34,3 +34,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Airflow configuration
+/week_3/airflow/logs
+/week_3/airflow/plugins
