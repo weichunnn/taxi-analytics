@@ -83,6 +83,7 @@ with DAG(
         "local_file": f"{path_to_local_home}/{parquet_file}",
     },
   )
+  
   # https://stackoverflow.com/questions/69651569/how-to-create-external-table-in-google-big-query-for-parquet-file-to-run-in-airf
   bigquery_external_table_task = BigQueryCreateExternalTableOperator(
     task_id="bigquery_external_table_task",
