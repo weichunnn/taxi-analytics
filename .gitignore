@@ -36,5 +36,5 @@ override.tf.json
 terraform.rc
 
 # Airflow configuration
-/week_3/airflow/logs
-/week_3/airflow/plugins
+/airflow_job/airflow/logs
+/airflow_job/airflow/plugins
