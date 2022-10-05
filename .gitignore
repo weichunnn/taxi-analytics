@@ -38,3 +38,9 @@ terraform.rc
 # Airflow configuration
 /airflow_job/airflow/logs
 /airflow_job/airflow/plugins
+
+/spark/data
+/spark/zones
+/spark/fhvhv
+.ipynb_checkpoints
+/spark/*.csv
