@@ -62,6 +62,19 @@ docker exec -it fcc643493660 bash # into airflow container
 airflow dags backfill fhv_taxi_data_v1 --reset-dagruns -s 2019-01-01 -e 2020-01-01
 ```
 
+### spark submit for standalone cluster
+
+```
+URL="spark://Weis-MacBook-Air.local:7077"
+
+spark-submit \
+  --master "${URL}" \
+  spark_standalone.py \
+    --input_green="data/pq/green/2021/*/" \
+    --input_yellow="data/pq/yellow/2021/*/" \
+    --output=data/report-2021
+```
+
 ## Data Processing
 
 Batch Jobs
